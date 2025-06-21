@@ -42,9 +42,10 @@ export const ExperienceSection = () => {
                   </h3>
                   <div className="flex items-center gap-2 justify-center">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <span className="text-sm font-semibold text-white tracking-wide">
-                      Internship • {exp.duration}
-                    </span>
+                    <span className="text-sm font-semibold text-gray-800 dark:text-white tracking-wide">
+                            Internship • {exp.duration}
+                            </span>
+
                   </div>
                 </div>
               </div>
