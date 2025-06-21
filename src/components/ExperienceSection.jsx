@@ -8,23 +8,22 @@ const experiences = [
       "Worked on building responsive UI components and optimizing app performance using React and TailwindCSS. Collaborated with backend team to integrate APIs.",
     website: "https://techcorp.com",
     stack: ["MongoDB", "Express", "React", "Node.js"],
+    duration: "6 months",
   },
   {
     id: 2,
     company: "Shipoars Shipping",
     description:
       "Developed fullstack features using MERN stack including user authentication, dashboard UI, and database schema design.",
-    website: "https://innovatex.com",
+    website: "https://www.shipoarsshipping.com/",
     stack: ["MongoDB", "Express", "React", "Node.js"],
+    duration: "3 months",
   },
 ];
 
 export const ExperienceSection = () => {
   return (
-    <section
-      id="experience"
-      className="py-28 px-6 relative"
-    >
+    <section id="experience" className="py-28 px-6 relative">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center text-gray-900 dark:text-gray-100">
           Experience
@@ -41,14 +40,13 @@ export const ExperienceSection = () => {
                   <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-4">
                     {exp.company}
                   </h3>
-                  <div className="flex items-center gap-3 justify-center">
+                  <div className="flex items-center gap-2 justify-center">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
                     <span className="text-sm font-semibold text-white tracking-wide">
-                      Internship
+                      Internship • {exp.duration}
                     </span>
                   </div>
                 </div>
-                
               </div>
 
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-8 text-lg">
@@ -67,15 +65,17 @@ export const ExperienceSection = () => {
               </div>
 
               <div className="flex items-center justify-between pt-6 border-t border-gray-200 dark:border-gray-700">
-                
                 <a
                   href={exp.website}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-all duration-300 font-medium group"
                 >
-                  Visit Website 
-                  <ExternalLink size={16} className="group-hover:translate-x-1 transition-transform duration-300" />
+                  Visit Website
+                  <ExternalLink
+                    size={16}
+                    className="group-hover:translate-x-1 transition-transform duration-300"
+                  />
                 </a>
               </div>
             </div>
