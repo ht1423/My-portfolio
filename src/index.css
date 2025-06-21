@@ -6,6 +6,10 @@ body {
   color: black;
 }
 
+body {
+  @apply bg-background text-foreground;
+}
+
 /* Dark mode styles */
 .dark body {
   background-color: #121212;
