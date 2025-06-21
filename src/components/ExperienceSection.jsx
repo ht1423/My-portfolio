@@ -3,15 +3,17 @@ import { ExternalLink } from "lucide-react";
 const experiences = [
   {
     id: 1,
+    role: "Internship",
     company: "Veritas Tech",
     description:
       "Worked on building responsive UI components and optimizing app performance using React and TailwindCSS. Collaborated with backend team to integrate APIs.",
     website: "https://techcorp.com",
     stack: ["MongoDB", "Express", "React", "Node.js"],
-    duration: "6 months",
+    duration: "3 months",
   },
   {
     id: 2,
+    role: "Freelance",
     company: "Soujourn International",
     description:
       "Developed fullstack features using MERN stack including user authentication, dashboard UI, and database schema design.",
@@ -43,7 +45,7 @@ export const ExperienceSection = () => {
                   <div className="flex items-center gap-2 justify-center">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
                     <span className="text-sm font-semibold text-gray-800 dark:text-white tracking-wide">
-                            Internship • {exp.duration}
+                            {exp.role} • {exp.duration}
                             </span>
 
                   </div>
