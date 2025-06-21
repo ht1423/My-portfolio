@@ -12,10 +12,10 @@ const experiences = [
   },
   {
     id: 2,
-    company: "Shipoars Shipping",
+    company: "Soujourn International",
     description:
       "Developed fullstack features using MERN stack including user authentication, dashboard UI, and database schema design.",
-    website: "https://www.shipoarsshipping.com/",
+    website: "https://random.com",
     stack: ["MongoDB", "Express", "React", "Node.js"],
     duration: "3 months",
   },
