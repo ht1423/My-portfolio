@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Reviewit",
     description: "A platform enabling users to collect and showcase authentic testimonials",
-    image: "/public/projects/project1.png",
+    image: "/projects/project1.png",
     tags: ["MongoDB", "Express", "React", "Node.js"],
     demoUrl: "https://my-reviewit.vercel.app/",
   },
@@ -14,7 +14,7 @@ const projects = [
     title: "Price Findrr",
     description:
       "A one stop solution for all your price tracking needs, automatind alerts on discounts,lowest prices, and stock availability for Amazon.in products",
-    image: "/public/projects/project2.png",
+    image: "/projects/project2.png",
     tags: ["Next.js", "TypeScript", "TailwindCss", "NodeMailer"],
     demoUrl: "https://price-findrr-tau.vercel.app/",
   },
@@ -23,7 +23,7 @@ const projects = [
     title: "Medium-clone",
     description:
       "A minimalistic clone of Medium app for reading, writing, and sharing articles with a clean intuitive interface",
-    image: "/public/projects/project3.png",
+    image: "/projects/project3.png",
     tags: ["TypeScript", "React", "MongoDB", "Express"],
     demoUrl: "https://medium-hono.vercel.app/",
   },
@@ -32,7 +32,7 @@ const projects = [
     title: "Snipsavyy",
     description:
       "Code snippet management platform with multi-level sharing and organisation capabilities",
-    image: "/public/projects/project4.png",
+    image: "/projects/project4.png",
     tags: ["Next.js", "TypeScript", "MongoDB", "TailwindCss"],
     demoUrl: "https://snipsavvy.vercel.app/",
   },
@@ -40,14 +40,14 @@ const projects = [
     id: 5,
     title: "Weather Wiz",
     description: "A simple weather app that shows real-time weather based on your location. Easy to use with a clean, minimal design",
-    image: "/public/projects/project5.png",
+    image: "/projects/project5.png",
     tags: ["Expo", "React Native", "OpenWeather API"],
   },
   {
     id: 6,
     title: "Movie Recommendation App",
     description: "A handy app that suggests movies you’ll love based on your preferences. Simple, smooth, and designed to help you find your next favorite flick.",
-    image: "/public/projects/project6.png",
+    image: "/projects/project6.png",
     tags: ["React Native", "Expo", "Appwrite", "Clerk"],
   },
   {
@@ -55,7 +55,7 @@ const projects = [
     title: "Chat App",
     description:
       "A real-time multi-user chat app with seamless authentication using Clerk (Passkeys & Google Sign-In) and a powerful Appwrite backend. Features modern UI, real-time updates, and secure user management—ready to ship as a production app.",
-    image: "/public/projects/project7.png",
+    image: "/projects/project7.png",
     tags: ["React Native", "Expo", "Clerk", "Appwrite"],
   },
 ];
