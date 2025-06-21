@@ -25,8 +25,8 @@ export const ExperienceSection = () => {
   return (
     <section id="experience" className="py-28 px-6 relative">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center text-gray-900 dark:text-gray-100">
-          Experience
+      <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+          Work <span className="text-primary"> Experience </span>
         </h2>
 
         <div className="flex flex-col space-y-12">
