@@ -7,7 +7,7 @@ const experiences = [
     company: "Veritas Tech",
     description:
       "Worked on building responsive UI components and optimizing app performance using React and TailwindCSS. Collaborated with backend team to integrate APIs.",
-    website: "https://techcorp.com",
+    website: "https://veritas-ao.dev/",
     stack: ["MongoDB", "Express", "React", "Node.js"],
     duration: "3 months",
   },
@@ -17,7 +17,6 @@ const experiences = [
     company: "Soujourn International",
     description:
       "Developed fullstack features using MERN stack including user authentication, dashboard UI, and database schema design.",
-    website: "https://random.com",
     stack: ["MongoDB", "Express", "React", "Node.js"],
     duration: "3 months",
   },
